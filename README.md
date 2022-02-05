@@ -15,3 +15,7 @@ https://www.udemy.com/course/crear-api-con-symfony-y-api-platform/
 
 ## URL for API documentation:
 - `http://localhost:250/api/v1/docs`
+
+## Commands for fix error with assets if API documentation is not displayed correctly
+- `make ssh-be`
+- `bin/console asset:install`
