@@ -12,3 +12,6 @@ https://www.udemy.com/course/crear-api-con-symfony-y-api-platform/
 - `mv console console.old`
 - `mv console.new console`
 - `rm console.old`
+
+## URL for API documentation:
+- `http://localhost:250/api/v1/docs`

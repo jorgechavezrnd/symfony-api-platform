@@ -6,12 +6,12 @@ services:
         autoconfigure: true
 
     App\:
-        resource: '../src/'
-        exclude:
-            - '../src/DependencyInjection/'
-            - '../src/Entity/'
-            - '../src/Kernel.php'
-            - '../src/Tests/'
+        resource: '../src/*'
+        exclude: '../src/{DependencyInjection,Entity,Tests,Kernel.php}'
+
+    App\Api\Action\:
+        resource: '../src/Api/Action'
+        tags: ['controller.service_arguments']
 
     App\Api\Listener\JsonExceptionResponseTransformerListener:
         tags:
