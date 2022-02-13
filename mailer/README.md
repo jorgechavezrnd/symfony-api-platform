@@ -13,3 +13,6 @@
 
 ## Install dependencies
 - `composer require symfony/amqp-messenger symfony/serializer symfony/property-access orm symfony/doctrine-messenger`
+
+## Documentation about RabbitMQ
+https://www.cloudamqp.com/blog/part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html
