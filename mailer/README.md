@@ -10,3 +10,6 @@
 - Validate composer: `composer validate`
 - Update `composer.lock` if it is necessary: `composer update`
 - Run console alias command to verify that Kernel.php is correct: `sf` (is the same as `bin/console`)
+
+## Install dependencies
+- `composer require symfony/amqp-messenger symfony/serializer symfony/property-access orm symfony/doctrine-messenger`
